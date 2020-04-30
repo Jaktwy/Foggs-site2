@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# Simple Open GL application
 
-You can use the [editor on GitHub](https://github.com/Jaktwy/Foggs-site2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## What is Open GL?
 
-### Markdown
+Simply Open Gl is a graphics Library that is designed for rendering 2D and 3D graphics. It provides that basic tools to developers to that can be used to Manage and create 3D objects within in different application. It includes a library of pre defined features, that aid developers in rendering and the creation of 3D objects. What I learnt about open gl is that, the library provides features that have already predefined functions and what exactly the output of each function should be, like predefined tools to build with. The tools are provided to developers to come build with and use the features to produce a solution which in my case was the 3D Cube.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## The creation of my Open GL application
 
-```markdown
-Syntax highlighted code block
+To start off with I first had to create my Open GL application Screen. This started by creating my First class Open GL. Once I created this class, I included all the Open GL libaries to my visual studio project. I created the Display function within my OpenGL source file and defined the size of the window using Vertex and used the Glut Function to create and name the window I was creating. Next I included the Graphics and utility library and began with creating a basic 2D shape on the screen by just messing around with the vertices and getting an idea of how it all works. I also used Freeglut and saw the different features that Free Glut provided, like handling simple tasks that should be left to the system like creating windows and initialising open GL and proving special inbuilt function like detecting mouse or keyboard input. 
 
-# Header 1
-## Header 2
-### Header 3
+The next part of my application was creating the wire frame. This was done by initialising the wire frame function within Open GL within my code and creating a basic wire frame cube, that could be used as a starting point to start drawing the 3d cube. A virtual camera was also created provided by free Glut. Then I hard coded the draw code and array for the cube, to define each point of the cube so I 3D cube could be drawn.
 
-- Bulleted
-- List
+Once I had a singular 3D cube and all the vertices and angles of the cube we're pre defined within Hello GL I then created a new Cube Class so the cube could be used more than one singular instance. Once the cube class was created I used File IO and created .txt file contained the cubes Array to be read and imputed to the display. Once this was done the lines of code responsible for generating the cube were put into a loop, so many cubes would be displayed on screen and also defining a certain amount of screens to spawn in different locations on screen. Now with all that done I have my fully completed project, with multiple cubes being able to render at a time and move past the users camera. 
 
-1. Numbered
-2. List
+## Evidence of my Cube:
 
-**Bold** and _Italic_ and `Code` text
+![Image](https://i.imgur.com/2Pn3AA8.png)
 
-[Link](url) and ![Image](src)
-```
+[Link](https://github.com/Jaktwy/FOGGS-Github) - Simple Open Gl github Repository 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jaktwy/Foggs-site2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
